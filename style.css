@@ -6,6 +6,14 @@ a {
 	color: #000;
 	text-decoration: none;
 }
+
+a:hover {
+	color: #E51937;
+	border-bottom: 3px solid #E51937;
+	border-bottom-right-radius: 10px 3px;
+	border-bottom-left-radius: 10px 3px;
+}
+
 .header {
 	height: 75px;
 }
@@ -66,7 +74,7 @@ a {
 }
 
 /*Section-top*/
-.section-top__background-one {
+/*.section-top__background-one {
 	position: absolute;
 	width: 968px;
 	height: 450px;
@@ -81,12 +89,11 @@ a {
 	height: 467px;
 	left: -37px;
 	top: 135px;
-
 	background: url(img/Tesla-Wordmark-Red.svg);
 	opacity: 0.1;
 	background-position: bottom; 
   background-repeat: no-repeat; 
-  background-size: contain;
+  background-size: contain;*/
 }
 
 .section-top__title-one {
@@ -108,6 +115,8 @@ a {
 .section-top__wrap {
 	position: absolute;
 	top: 754px;
+	width:;
+	height:;
 }
 
 .section-top__wrap__inner1 {
@@ -131,13 +140,13 @@ a {
 }
 
 .section-top__wrap__inner4 {
+	width: 160px;
+	height: 40px;
+	color: #E51937;
 	position: absolute;
 	left: 966px;
-	width: 160px;
-	height: 40;
 	background-color: #fff;
 	border: 2px solid #E51937;
-	box-sizing: border-box;
 	font-weight: bold;
 	font-size: 13px;
 	text-align: center;
