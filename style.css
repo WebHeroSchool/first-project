@@ -1,3 +1,145 @@
 body {
 	font-family: "Montserrat";
 }
+/*Header*/
+a {
+	color: #000;
+	text-decoration: none;
+}
+.header {
+	height: 75px;
+}
+
+.header__logo {
+	position: absolute;
+	width: 166px;
+	height: 51px;
+	left: 42.72px;
+	top: 24px;
+}
+
+.header__nav {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.header__nav__item1 {
+	position: absolute;
+	left: 466.86px;
+	top: 40px;
+}
+
+.header__nav__item2 {
+	position: absolute;
+	left: 592px;
+	top: 40px;
+}
+
+.header__nav__item3 {
+	position: absolute;
+	left: 679.86px;px;
+	top: 40px;
+}
+
+.header__nav__item4 {
+	position: absolute;
+	left: 784.86px;
+	top: 40px;
+}
+
+.header__nav__item5 {
+	position: absolute;
+	left: 900.86px;
+	top: 40px;	
+}
+
+.header__nav__item6 {
+	position: absolute;
+	left: 1177px;
+	top: 40px;		
+}
+
+.header__nav__item7 {
+	position: absolute;
+	left: 1276px;
+	top: 40px;	
+}
+
+/*Section-top*/
+.section-top__background-one {
+	position: absolute;
+	width: 968px;
+	height: 450px;
+	left: 236px;
+	top: 279px;
+	background: url(img/tesla-png-tesla-png-hd-1636.svg);	
+}
+
+.section-top__background-two {
+	position: absolute;
+	width: 1514px;
+	height: 467px;
+	left: -37px;
+	top: 135px;
+
+	background: url(img/Tesla-Wordmark-Red.svg);
+	opacity: 0.1;
+	background-position: bottom; 
+  background-repeat: no-repeat; 
+  background-size: contain;
+}
+
+.section-top__title-one {
+	position: absolute;
+	left: 535px;
+	top: 58px;
+	font-weight: 600;
+	font-size: 90px;
+}
+
+.section-top__title-six {
+	position: absolute;
+	left: 600px;
+	top: 188px;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.section-top__wrap {
+	position: absolute;
+	top: 754px;
+}
+
+.section-top__wrap__inner1 {
+	display: flex;
+	position: absolute;
+	left: 381px;
+}
+.section-top__wrap__inner2 {
+	position: absolute;
+	left: 597.5px;
+}
+.section-top__wrap__inner3 {
+ 	position: absolute;
+ 	left: 830px;
+ 	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 89px;
+	height: 18px;
+}
+
+.section-top__wrap__inner4 {
+	position: absolute;
+	left: 966px;
+	width: 160px;
+	height: 40;
+	background-color: #fff;
+	border: 2px solid #E51937;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+}

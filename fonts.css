@@ -5,3 +5,10 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../first-project/fonts/Montserrat-Bold.otf") format('woff'),
+       url("../first-project/fonts/Montserrat-Bold.ttf") format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
