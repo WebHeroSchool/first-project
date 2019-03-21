@@ -73,14 +73,21 @@ a:hover {
 	top: 40px;	
 }
 
+.header__nav__item8 {
+	position: absolute;
+	left: 1356px;
+	top: 39px;
+	color: #E51937
+}
+
 /*Section-top*/
-/*.section-top__background-one {
+.section-top__background-one {
 	position: absolute;
 	width: 968px;
 	height: 450px;
 	left: 236px;
 	top: 279px;
-	background: url(img/tesla-png-tesla-png-hd-1636.svg);	
+/*	background: url(img/tesla-png-tesla-png-hd-1636.svg);	*/
 }
 
 .section-top__background-two {
@@ -89,11 +96,11 @@ a:hover {
 	height: 467px;
 	left: -37px;
 	top: 135px;
-	background: url(img/Tesla-Wordmark-Red.svg);
+/*	background: url(img/Tesla-Wordmark-Red.svg);*/
 	opacity: 0.1;
 	background-position: bottom; 
   background-repeat: no-repeat; 
-  background-size: contain;*/
+  background-size: contain;
 }
 
 .section-top__title-one {
@@ -115,19 +122,20 @@ a:hover {
 .section-top__wrap {
 	position: absolute;
 	top: 754px;
-	width:;
-	height:;
 }
 
 .section-top__wrap__inner1 {
-	display: flex;
 	position: absolute;
 	left: 381px;
+	top: -15px;
 }
+
 .section-top__wrap__inner2 {
 	position: absolute;
 	left: 597.5px;
+	top: -15px;
 }
+
 .section-top__wrap__inner3 {
  	position: absolute;
  	left: 830px;
@@ -151,4 +159,19 @@ a:hover {
 	font-size: 13px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.section-top__wrap__span-one {
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.section-top__wrap__span-two {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.section-top__wrap__span-tree {
+	font-size: 12px;
 }
