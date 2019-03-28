@@ -1,6 +1,6 @@
 /*Section-middle*/
 
-.section-middle {
+.second {
 	position: relative;
     overflow: hidden;
     margin-top: 37px;
@@ -9,14 +9,14 @@
     /*border: 2px solid #000;*/
 }
 
-.section-middle__image {
+.second__image {
  	position: absolute;
     left: -70px;
     width: 1110px;
     bottom: 0;
   }
 
-.section-middle__title-two {
+.second__title {
 	left: 80px;
 	position: relative;
     font-size: 70px;
@@ -24,7 +24,7 @@
     color: #E51937;
 }
 
-.section-middle__wrap {
+.second__info {
 	position: relative;
     box-sizing: border-box;
     width: 440px;
@@ -39,13 +39,13 @@
     /*justify-content: space-around;*/
 }
 
-.section-middle__wrap__title-three {
+.info__title {
 	font-weight: 600;
 	font-size: 30px;
 	margin-bottom: 11px;
 }
 
-.section-middle__wrap__inner1 {
+.info__description {
 	font-weight: 500;
 	font-size: 15px;
 	width: 316px;
@@ -53,38 +53,19 @@
 	margin-bottom: 54px;
 }
 
-.section-middle__wrap__info-2 {
+.info__block {
 	display: flex;
-
 }
 
-.section-middle__wrap__inner2 {
+.info__text {
 	margin-left: 20px;
 }
 
-.section-middle__wrap__info-3 {
-	display: flex;
-
-}
-
-.section-middle__wrap__inner3 {
-	margin-left: 20px;
-}
-
-.section-middle__wrap__info-4 {
-	display: flex;
-
-}
-
-.section-middle__wrap__inner4 {
-	margin-left: 20px;
-}
-
-.section-middle__wrap__inner5 {
+.info__text-margin {
 	margin-left: 10px;
 }
 
-.section-middle__wrap__inner6 {
+.info__block-button {
 	width: 160px;
 	height: 40px;
 	color: #fff;
@@ -96,9 +77,24 @@
 	margin-left: 22px;
 }
 
-.section-middle__wrap__info__bottom {
+.info__block-margin {
 	display: flex;
 	align-items: center;
 	margin-top: 100px;
 	/*border: 2px solid black;*/
+}
+
+.span-one {
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.span-two {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.span-tree {
+	font-size: 12px;
 }

@@ -1,6 +1,6 @@
 /*Bottom section*/
 
-.section-bottom {
+.third {
 	/*position: relative;*/
 	box-sizing: border-box;
     width: 440px;
@@ -11,47 +11,47 @@
     color: #FFFFFF;
 }
 
-.section-bottom__wrap {
+.third__info {
 	display: flex;
 	flex-direction: column;
 	/*border: 2px green solid;*/
 }
 
-.section-bottom__wrap__title-three {
+.info__title {
 	font-weight: 600;
 	font-size: 30px;
 }
 
-.section-bottom__wrap__inner1 {
+.info__description {
 	font-weight: 500;
 	font-size: 15px;
 	width: 316px;
 	height: 134px;
 }
 
-.section-bottom__wrap__inner2 {
+.stars__text {
 	font-weight: 600;
 	font-size: 30px;
 }
 
-.section-bottom__wrap__inner3 {
+.fiveStars__text {
 	font-weight: 600;
 	font-size: 50px;
 	line-height: 30px;
 	margin-left: 24px;
 }
 
-.section-bottom__wrap__inner3__text {
+.text-size {
 	font-weight: 600;
 	font-size: 25px;
 }
 
-.section-bottom__wrap__info {
+.info__fiveStars {
 	display: flex;
 	justify-content: center;
 }
 
-.section-bottom__wrap__inner4 {
+.block__text {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: normal;
@@ -59,7 +59,7 @@
 	margin-left: 10px;
 }
 
-.section-bottom__wrap__inner5 {
+.info__button {
 	width: 160px;
 	height: 40px;
 	color: #fff;
@@ -71,12 +71,12 @@
 	margin-left: 22px;
 }
 
-.section-bottom__wrap__info-button {
+.info__block {
 	display: flex;
 	justify-content: center;
 }
 
-.section-bottom__wrap__background {
+.background__img {
 	position: absolute;
 	width: 1049px;
 	height: 540px;
@@ -84,7 +84,7 @@
 	top: 2023px;
 }
 
-.section-bottom__wrap__background-title{
+.background__title {
 	white-space: nowrap;
 	position: absolute;
 	left: 620px;
@@ -96,13 +96,13 @@
 	opacity: 0.1;
 }
 
-.section-bottom__wrap__line-1 {
+.wrap__item1 {
 	position: absolute;
 	left: 609px;
 	top: 2023px;
 }
 
-.section-bottom__wrap__line-2 {
+.wrap__item2 {
 	position: absolute;
 	width: 14px;
 	height: 132px;
@@ -110,7 +110,7 @@
 	top: 1976px;
 }
 
-.section-bottom__wrap__line-3 {
+.wrap__item3 {
 	position: absolute;
 	width: 14px;
 	height: 118px;
@@ -118,7 +118,7 @@
 	top: 2390px;
 }
 
-.section-bottom__wrap__background__text-1 {
+.background__text1 {
 	position: absolute;
 	width: 172.68px;
 	height: 30px;
@@ -130,7 +130,7 @@
 	color: #000;
 }
 
-.section-bottom__wrap__background__text-2 {
+.background__text2 {
 	position: absolute;
 	width: 173px;
 	height: 41px;
@@ -143,7 +143,7 @@
 	color: #000;
 }
 
-.section-bottom__wrap__background__text-3 {
+.background__text3 {
 	position: absolute;
 	width: 233px;
 	height: 41px;
@@ -156,18 +156,6 @@
 	color: #000;
 }
 
-.section-bottom__wrap__stars {
-	margin-bottom: -15px;
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section-bottom__wrap__stars-item {
-	font-size: 17px;
-    font-weight: bold;
-}
 span {
 	 font-weight: normal;
 }

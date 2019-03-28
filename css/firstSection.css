@@ -1,39 +1,39 @@
 /*Section-top*/
 
-.section-top {
+.first {
 	display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section-top__background {
+.first__wrap {
 	display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-top__title-one {
+.first__wrap-title {
 	white-space: nowrap;
 	font-weight: 600;
 	font-size: 90px;
 	margin-top: 66px;
 }
 
-.section-top__title-six {
+.first__wrap-subtitle {
 	margin-top: -80px;
 	white-space: nowrap;
 	font-weight: 500;
 	font-size: 15px;
 }
 
-.section-top__image {
+.first__wrap-image {
 	width: 100%;
 	margin-top: -150px;
 	margin-bottom: 50px;
 }
 
-.section-top__wrap {
+.first__info {
 	width: 100%;
     display: flex;
     justify-content: center;
@@ -42,38 +42,19 @@
     /*border: 2px solid red;*/
 }
 
-.section-top__wrap__item-1{
+.info-block{
 	display: flex;
 	justify-content: center;
 	/*border: 2px solid blue;*/
 	margin-right: 60px;
 }
 
-.section-top__wrap__inner1 {
+.info-block__text {
 	margin-left: 14px;
 	line-height: 20px;	
 	}
 
-.section-top__wrap__item-2 {
-	display: flex;
-	justify-content: center;
-	/*border: 2px solid blue;	*/
-	margin-right: 60px;
-}
-
-.section-top__wrap__inner2 {
-	margin-left: 14px;
-	line-height: 20px;
-}
-
-.section-top__wrap__item-3 {
-    display: flex;
-	justify-content: center;
-	/*border: 2px solid blue;*/
-	margin-right: 60px;v 
-}
-
-.section-top__wrap__inner3 {
+.info-block__test {
  	font-weight: bold;
 	font-size: 13px;
 	text-align: center;
@@ -82,7 +63,7 @@
 	line-height: 20px;
 }
 
-.section-top__wrap__inner4 {
+.info-block__button {
 	width: 160px;
 	height: 40px;
 	color: #E51937;
@@ -93,23 +74,23 @@
 	text-transform: uppercase;
 }
 
-.section-top__down {
+.first__down {
 	display: flex;
 	justify-content: center;
 	margin-top: 37px;
 }
 
-.section-top__wrap__span-one {
+.span-one {
 	text-align: left;
 	font-size: 35px;
 	font-weight: 600;
 }
 
-.section-top__wrap__span-two {
+.span-two {
 	font-weight: 600;
 	font-size: 20px;
 }
 
-.section-top__wrap__span-tree {
+.span-tree {
 	font-size: 12px;
 }
