@@ -1,6 +1,6 @@
 /*Section-top*/
 
-.first {
+.preview {
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,27 +13,27 @@
     align-items: center;
 }
 
-.first__wrap-title {
+.wrap__title {
 	white-space: nowrap;
 	font-weight: 600;
 	font-size: 90px;
 	margin-top: 66px;
 }
 
-.first__wrap-subtitle {
+.wrap__subtitle {
 	margin-top: -80px;
 	white-space: nowrap;
 	font-weight: 500;
 	font-size: 15px;
 }
 
-.first__wrap-image {
+.wrap__image {
 	width: 100%;
 	margin-top: -150px;
 	margin-bottom: 50px;
 }
 
-.first__info {
+.preview__info {
 	width: 100%;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@
 	text-transform: uppercase;
 }
 
-.first__down {
+.preview__down {
 	display: flex;
 	justify-content: center;
 	margin-top: 37px;

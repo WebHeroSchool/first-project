@@ -1,6 +1,6 @@
 /*Bottom section*/
 
-.third {
+.security {
 	/*position: relative;*/
 	box-sizing: border-box;
     width: 440px;
@@ -11,7 +11,7 @@
     color: #FFFFFF;
 }
 
-.third__info {
+.security__info {
 	display: flex;
 	flex-direction: column;
 	/*border: 2px green solid;*/

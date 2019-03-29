@@ -1,6 +1,6 @@
 /*Section-middle*/
 
-.second {
+.description {
 	position: relative;
     overflow: hidden;
     margin-top: 37px;
@@ -9,14 +9,14 @@
     /*border: 2px solid #000;*/
 }
 
-.second__image {
+.description__image {
  	position: absolute;
     left: -70px;
     width: 1110px;
     bottom: 0;
   }
 
-.second__title {
+.description__title {
 	left: 80px;
 	position: relative;
     font-size: 70px;
@@ -24,7 +24,7 @@
     color: #E51937;
 }
 
-.second__info {
+.description__info {
 	position: relative;
     box-sizing: border-box;
     width: 440px;
