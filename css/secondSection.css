@@ -39,13 +39,13 @@
     /*justify-content: space-around;*/
 }
 
-.info__title {
+.description__info-title {
 	font-weight: 600;
 	font-size: 30px;
 	margin-bottom: 11px;
 }
 
-.info__description {
+.description__info-character {
 	font-weight: 500;
 	font-size: 15px;
 	width: 316px;
