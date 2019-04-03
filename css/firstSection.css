@@ -13,21 +13,21 @@
     align-items: center;
 }
 
-.wrap__title {
+.preview__wrap-title{
 	white-space: nowrap;
 	font-weight: 600;
 	font-size: 90px;
 	margin-top: 66px;
 }
 
-.wrap__subtitle {
+.preview__wrap-subtitle {
 	/*margin-top: -80px;*/
 	white-space: nowrap;
 	font-weight: 500;
 	font-size: 15px;
 }
 
-.wrap__image {
+.preview__wrap-image {
 	width: 100%;
 	margin-top: -150px;
 	/*border: 2px solid red;*/
