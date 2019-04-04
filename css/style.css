@@ -1,0 +1,18 @@
+@import "header.css";
+@import "firstSection.css";
+@import "secondSection.css";
+@import "thirdSection.css";
+
+
+
+
+body {
+    font-family: 'Montserrat';
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
