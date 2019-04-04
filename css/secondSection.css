@@ -68,7 +68,7 @@
 	/*margin-left: 20px;*/
 }
 
-.info__text-margin {
+.info__text_margin {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: normal;
@@ -76,10 +76,11 @@
 	margin-left: 10px;
 }
 
-.info__block-margin {
+.info__block_margin {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 	margin-bottom: 50px;
 }
 
