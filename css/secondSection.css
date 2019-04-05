@@ -1,12 +1,11 @@
 /*Section-middle*/
 
-.description {
+/*.description {
 	position: relative;
     overflow: hidden;
     margin-top: 37px;
     display: flex;
     justify-content: space-between;
-    /*border: 2px solid #000;*/
 }
 
 .description__image {
@@ -33,7 +32,6 @@
   padding-left: 52px;
   background-color: #E51937;
   color: #FFF;
-/*  border: 2px solid blue;*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,7 +40,6 @@
 .description__info-title {
 	font-weight: 600;
 	font-size: 30px;
-/*	margin-bottom: 11px;*/
 }
 
 .description__info-character {
@@ -50,14 +47,12 @@
 	font-size: 15px;
 	width: 316px;
 	height: 206px;
-/*	margin-bottom: 54px;*/
 }
 
 .info__block {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
-/*	border: 2px solid black;*/
 }
 
 .info__block-image {
@@ -65,7 +60,6 @@
 }
 
 .info__text {
-	/*margin-left: 20px;*/
 }
 
 .info__text_margin {
@@ -101,7 +95,6 @@
 	display: flex;
 	align-items: center;
 	margin-top: 100px;
-	/*border: 2px solid black;*/
 }
 
 .span-one {
@@ -117,4 +110,4 @@
 
 .span-tree {
 	font-size: 12px;
-}
+}*/

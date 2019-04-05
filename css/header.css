@@ -2,7 +2,7 @@
 
 
 .header {
-	display: flex;
+		display: flex;
 	justify-content: space-between;
 }
 
@@ -36,3 +36,20 @@
 	border-bottom-right-radius: 10px 3px;
 	border-bottom-left-radius: 10px 3px;
 }
+
+@media screen and (max-width: 961px) {
+.menu {
+        display: none
+}
+.menu__item_burger{
+	display: visible;
+}
+    }
+
+@media screen and (max-width: 480px) {    
+.logo {
+
+	margin-top: 5px;
+
+}    
+		}
