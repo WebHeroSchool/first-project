@@ -3,17 +3,25 @@
 
 .header {
 		display: flex;
-	justify-content: space-between;
+		justify-content: space-between;
 }
 
 .logo {
 	display: flex;
 	justify-content: flex-start;
+}
+
+.logo__img {
 	margin-top: 24px;
+	margin-left: 42.72px;
+	width: 166px;
+	height: 51px;
 }
 
 .header__menu {
-	margin-top: 40px;	
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
 }
 
 .header__menu_side {
@@ -28,6 +36,7 @@
 	font-size: 15px;
 	color: #000;
 	text-decoration: none;
+
 }
 
 .menu__item:hover {
@@ -37,19 +46,18 @@
 	border-bottom-left-radius: 10px 3px;
 }
 
-@media screen and (max-width: 961px) {
-.menu {
+.menu__item_burger {
+ 	margin: 42px 60px 0 30px;
+}
+
+@media screen and (max-width: 960px) {
+.menu__item {
         display: none
 }
-.menu__item_burger{
-	display: visible;
-}
+.menu__item_burger {
+ 				margin-right: 24px;
     }
-
-@media screen and (max-width: 480px) {    
-.logo {
-
-	margin-top: 5px;
-
+.logo__img {
+	margin: 24px 0 0 15px;
 }    
 		}
