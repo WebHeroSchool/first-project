@@ -131,8 +131,6 @@ margin-top: 30px;
 
 .info-block__test {
 	color: #E51937;
-	height: 40px;
-
 }
 
 .info-block__button {
@@ -152,4 +150,13 @@ margin-top: 30px;
 	display: flex;	
 	flex-wrap: wrap;
 }
-    }	
+.info-block__test {
+	color: #E51937;
+}
+
+.info-block__button {
+	color:  #fff;
+	background-color: #E51937;
+}
+
+	 }	
