@@ -144,9 +144,11 @@ margin-top: 30px;
 .preview__wrap-title{
  	top: 155px;
 	}
+
 .preview__wrap-image {
 	margin-top: -45px;
 }	
+
 .preview__info {
 	display: flex;	
 	flex-wrap: wrap;
