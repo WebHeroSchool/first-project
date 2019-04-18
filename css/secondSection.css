@@ -49,7 +49,7 @@
 	font-weight: 500;
 	font-size: 15px;
 	width: 316px;
-/*	height: 206px;*/
+	/*	height: 206px;*/
 	line-height: 18px;
 }
 
@@ -86,7 +86,7 @@
 .info__text {
 }
 
-.info__text_margin {
+.info__text_weight {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: normal;
@@ -95,13 +95,16 @@
 }
 
 .info__block_margin {
+	margin-left: -5px;
+}
+
+.info__block_order {
 	/*	border: 2px solid red;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: px;
-}
+	}
 
 .info__block-button {
 	width: 160px;
@@ -137,7 +140,6 @@
 	font-size: 12px;
 }
 
-
 @media screen and (max-width: 1024px) {
 
 	.description {
@@ -156,8 +158,9 @@
 	}
 
 	.description__title	{
-		position: absolute;
-		left: 60%;
+		/*position: absolute;*/
+		left: 50%;
+		/*white-space: nowrap;*/
 
 	}
 	
@@ -167,28 +170,29 @@
 
 	.description__info{
 		width: 100%;
-		height: 487px;
-		margin-top: -5px;
-/*		border:2px solid blue;*/
+		height: auto;
+		margin-top: -3px;
+		/*		border:2px solid blue;*/
 	}	
 
 	.info {
-/*		border: 2px solid yellow;*/
+		/*border: 2px solid yellow;*/
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+		margin-left: -10%;
 	}
 
 	.info__block_text{
 		display: flex;
 		flex-direction: column;
-/*		border: 2px solid green;*/
+		/*		border: 2px solid green;*/
 		margin: 0;
 		height: auto;
 	}
 	
 	.info__block_item {
-/*		border: 2px solid blue;*/
+		/*		border: 2px solid blue;*/
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -201,18 +205,18 @@
 
 	}
 
-	.info__block_margin {
+	.info__block_order {
 		display: flex;
 		justify-content: center;
 		margin-top: 50px;
 		margin-bottom: 50px;
-/*		border: 2px solid green;*/
+		/*		border: 2px solid green;*/
 	}
 
 	.info__block-button {
 		margin-left: 100px;
 	}
-
+}
 	@media screen and (max-width: 600px) {
 
 		.description__info {
@@ -229,7 +233,7 @@
 			display: none;
 		}
 
-		.info__block_margin {
+		.info__block_order {
 			display: none;
 		}
 
@@ -237,5 +241,17 @@
 			display: flex;
 			max-width: 100%;
 			margin: auto;
+		}
+
+		.info__block-title {
+			margin-top: 18px;
+		}
+
+		.info__block-character {
+			margin-bottom: 30px;
+		}
+
+		.info {
+			margin:0;
 		}
 	}
